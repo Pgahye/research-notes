@@ -30,6 +30,7 @@ deploy:
 
 after_success:
   - ls -al
+  - ls -al _site/
   - git clone https://github.com/hibrainnet/hibrainnet.github.io.git
   - cd hibrainnet.github.io
   - shopt -s extglob
