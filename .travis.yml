@@ -8,6 +8,7 @@ before_install:
 - rm .travis.yml
 - cp -r * ../
 - cd ..
+- rm -rf jekyll-and.hybe
 - ls -al
 
 install:
