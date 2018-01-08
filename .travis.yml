@@ -9,8 +9,11 @@ before_install:
 - cp -r * ../
 - cd ..
 - rm -rf jekyll-and-hybe
-- mv posts/ _posts
+- mv posts/* _posts/
 - ls -al
+- cd _posts
+- ls -al
+- cd ..
 
 install:
 - gem install rake
